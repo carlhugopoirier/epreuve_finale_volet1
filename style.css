@@ -25,8 +25,25 @@
 100% { -ms-transform: rotate(360deg);}
 }
 
+@keyframes dash {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+@-webkit-keyframes dash {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
 .rotation {
  	animation: spin1 2s infinite linear;
  	transform-origin: center;
 }
 
+.trait {
+	stroke-dasharray: 200;
+	stroke-dashoffset: 200;
+	animation: dash 5s infinite linear backwards;
+}
