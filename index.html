@@ -14,9 +14,9 @@
 
 	<body>
 
-	<svg width="75" height="75" xmlns="http://www.w3.org/2000/svg" class="hide">
-
- 	  <g id="forme1">
+	<svg viewBox="0 0 500 450" xmlns="http://www.w3.org/2000/svg" >
+	<defs>
+ 	  <g id="forme1" class="rotation" >
 	  <circle 
 	  	r="22.5" 
 	  	id="cercle" 
@@ -43,10 +43,8 @@
 	  	stroke-width="1.5" 
 	  	fill="#00ff00"/>
  		</g>
-	</svg>
-
-	<svg viewBox="0 0 500 450">
-			<use xlink:href="#forme1" x="" y="50"/>
+ 	</defs>
+ 			<use xlink:href="#forme1" x="" y="50" id=""/>
 			<use xlink:href="#forme1" x="75" y=""/>
 			<use xlink:href="#forme1" x="150" y="50" />
 			<use xlink:href="#forme1" x="75" y="100"/>
