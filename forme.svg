@@ -1,0 +1,43 @@
+<svg 
+	width="150" 
+	 height="150" 
+	 xmlns="http://www.w3.org/2000/svg">
+ 
+ <g>
+  <rect 
+  	fill="none" 
+  	id="canvas_background" 
+  	height="150" 
+  	width="150" 
+  	y="-1" 
+  	x="-1"/>
+ </g>
+
+ <g>
+  <circle 
+  	r="45" 
+  	id="cercle" 
+  	cy="75" 
+  	cx="75" 
+  	stroke-width="0" 
+  	fill="#ff0000"/>
+
+  <ellipse 
+  	ry="66" 
+  	rx="12" 
+  	id="ellipseV" 
+  	cy="75" 
+  	cx="75" 
+  	stroke-width="0" 
+  	fill="#00ff00"/>
+
+  <ellipse 
+  	ry="12" 
+  	rx="66" 
+  	id="ellipseH" 
+  	cy="75" 
+  	cx="75" 
+  	stroke-width="1.5" 
+  	fill="#00ff00"/>
+ </g>
+</svg>
