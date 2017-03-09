@@ -1,0 +1,88 @@
+
+e1352417@B1153-G99NFX1 MINGW64 /c/Users/e1352417/Desktop/Poirier_Carl-Hugo_EP_volet1
+$ git add .
+fatal: Not a git repository (or any of the parent directories): .git
+
+e1352417@B1153-G99NFX1 MINGW64 /c/Users/e1352417/Desktop/Poirier_Carl-Hugo_EP_volet1
+$ git init .
+Initialized empty Git repository in C:/Users/e1352417/Desktop/Poirier_Carl-Hugo_EP_volet1/.git/
+
+e1352417@B1153-G99NFX1 MINGW64 /c/Users/e1352417/Desktop/Poirier_Carl-Hugo_EP_volet1 (master)
+$ git add .
+
+e1352417@B1153-G99NFX1 MINGW64 /c/Users/e1352417/Desktop/Poirier_Carl-Hugo_EP_volet1 (master)
+$ git commit -m "Début de l'épreuve finale"
+[master (root-commit) ef76676] Début de l'épreuve finale
+ 2 files changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 forme.svg
+ create mode 100644 index.html
+
+e1352417@B1153-G99NFX1 MINGW64 /c/Users/e1352417/Desktop/Poirier_Carl-Hugo_EP_volet1 (master)
+$ git remote add origin https://github.com/carlhugopoirier/epreuve_finale_volet1.git
+
+e1352417@B1153-G99NFX1 MINGW64 /c/Users/e1352417/Desktop/Poirier_Carl-Hugo_EP_volet1 (master)
+$ git push -u origin master
+
+Counting objects: 3, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 256 bytes | 0 bytes/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+Branch master set up to track remote branch master from origin.
+To https://github.com/carlhugopoirier/epreuve_finale_volet1.git
+ * [new branch]      master -> master
+
+e1352417@B1153-G99NFX1 MINGW64 /c/Users/e1352417/Desktop/Poirier_Carl-Hugo_EP_volet1 (master)
+$
+
+e1352417@B1153-G99NFX1 MINGW64 /c/Users/e1352417/Desktop/Poirier_Carl-Hugo_EP_volet1 (master)
+$ git commit -m "Insertion dans Github"
+On branch master
+Your branch is up-to-date with 'origin/master'.
+nothing to commit, working tree clean
+
+e1352417@B1153-G99NFX1 MINGW64 /c/Users/e1352417/Desktop/Poirier_Carl-Hugo_EP_volet1 (master)
+$ git commit -m "question #1 terminée"
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+        modified:   forme.svg
+        modified:   index.html
+
+no changes added to commit
+
+e1352417@B1153-G99NFX1 MINGW64 /c/Users/e1352417/Desktop/Poirier_Carl-Hugo_EP_volet1 (master)
+$ git add .
+
+e1352417@B1153-G99NFX1 MINGW64 /c/Users/e1352417/Desktop/Poirier_Carl-Hugo_EP_volet1 (master)
+$ git commit -m "question #1 terminée"
+[master 1570ac1] question #1 terminée
+ 2 files changed, 60 insertions(+)
+
+e1352417@B1153-G99NFX1 MINGW64 /c/Users/e1352417/Desktop/Poirier_Carl-Hugo_EP_volet1 (master)
+$ git add .
+
+e1352417@B1153-G99NFX1 MINGW64 /c/Users/e1352417/Desktop/Poirier_Carl-Hugo_EP_volet1 (master)
+$ git commit -m "question #2 terminée"
+[master 962e65c] question #2 terminée
+ 3 files changed, 45 insertions(+), 13 deletions(-)
+ create mode 100644 style.css
+
+e1352417@B1153-G99NFX1 MINGW64 /c/Users/e1352417/Desktop/Poirier_Carl-Hugo_EP_volet1 (master)
+$ git add .
+
+e1352417@B1153-G99NFX1 MINGW64 /c/Users/e1352417/Desktop/Poirier_Carl-Hugo_EP_volet1 (master)
+$ git commit -m "question #3 terminée"
+[master c5023bc] question #3 terminée
+ 2 files changed, 35 insertions(+), 8 deletions(-)
+
+e1352417@B1153-G99NFX1 MINGW64 /c/Users/e1352417/Desktop/Poirier_Carl-Hugo_EP_volet1 (master)
+$ git add .
+
+e1352417@B1153-G99NFX1 MINGW64 /c/Users/e1352417/Desktop/Poirier_Carl-Hugo_EP_volet1 (master)
+$ git commit -m "question #4 terminée"
+[master bcfd09e] question #4 terminée
+ 2 files changed, 29 insertions(+), 6 deletions(-)
+
+e1352417@B1153-G99NFX1 MINGW64 /c/Users/e1352417/Desktop/Poirier_Carl-Hugo_EP_volet1 (master)
+$

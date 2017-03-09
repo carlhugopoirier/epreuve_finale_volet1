@@ -45,5 +45,5 @@
 .trait {
 	stroke-dasharray: 200;
 	stroke-dashoffset: 200;
-	animation: dash 5s infinite linear backwards;
+	animation: dash 5s infinite linear;
 }
