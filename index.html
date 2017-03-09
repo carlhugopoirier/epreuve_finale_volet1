@@ -2,16 +2,55 @@
 <html>
 	<head>
 		<meta charset="utf-8">
-		<title>Exercice 2 - Programmation d'animation II</title>
+		<title>Épreuve Finale - Carl-Hugo Poirier - Volet 1</title>
 		<!-- Ajustement de la taille du viewport-->
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 		<!-- Désactivation du mode de compatibilité avec des versions antérieures pour IE-->
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+		 <link href="style.css" rel="stylesheet">
 	</head>	
 
 	<body>
-	
+
+	<svg width="75" height="75" xmlns="http://www.w3.org/2000/svg" class="hide">
+
+ 	  <g id="forme1">
+	  <circle 
+	  	r="22.5" 
+	  	id="cercle" 
+	  	cy="37.5" 
+	  	cx="37.5" 
+	  	stroke-width="0" 
+	  	fill="#ff0000"/>
+
+	  <ellipse 
+	  	ry="33" 
+	  	rx="6" 
+	  	id="ellipseV" 
+	  	cy="37.5" 
+	  	cx="37.5" 
+	  	stroke-width="0" 
+	  	fill="#00ff00"/>
+
+	  <ellipse 
+	  	ry="6" 
+	  	rx="33" 
+	  	id="ellipseH" 
+	  	cy="37.5" 
+	  	cx="37.5" 
+	  	stroke-width="1.5" 
+	  	fill="#00ff00"/>
+ 		</g>
+	</svg>
+
+	<svg viewBox="0 0 500 450">
+			<use xlink:href="#forme1" x="" y="50"/>
+			<use xlink:href="#forme1" x="75" y=""/>
+			<use xlink:href="#forme1" x="150" y="50" />
+			<use xlink:href="#forme1" x="75" y="100"/>
+	</svg>
 	</body>
 
 </html>

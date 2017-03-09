@@ -2,18 +2,8 @@
 	width="150" 
 	 height="150" 
 	 xmlns="http://www.w3.org/2000/svg">
- 
- <g>
-  <rect 
-  	fill="none" 
-  	id="canvas_background" 
-  	height="150" 
-  	width="150" 
-  	y="-1" 
-  	x="-1"/>
- </g>
 
- <g>
+ <g id="forme">
   <circle 
   	r="45" 
   	id="cercle" 
